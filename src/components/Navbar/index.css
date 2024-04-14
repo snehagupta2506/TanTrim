@@ -1,0 +1,95 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+  
+    background-color: black;
+  }
+  
+  .navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+  }
+  
+  .nav-icons {
+    display: flex;
+  }
+  
+  .icon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .navbar-secondary {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .secondary-option {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type='text'] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .site-name {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .bag-type {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 10px;
+  }
+  
+  .bag-name {
+    margin-top: 5px;
+    color: white;
+  }
+  
+  /* Add this to display the third row horizontally */
+  .bag-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .filterName {
+    color: white;
+  }
+  
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  
